@@ -1,0 +1,5 @@
+n1=float(input('Qual foi sua primeira nota do ano?'))
+n2=float(input('Qual foi sua ultima nota do ano?'))
+d=(n1+n2)
+m=(d/2)
+print('Sua media desse ano foi {}'.format(m))

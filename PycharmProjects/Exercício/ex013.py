@@ -1,0 +1,6 @@
+sn=float(input('qual é seu salario? R$'))
+am=float(input('qual vai ser seu aumento? %'))
+au=(sn*am)
+ns=(au/100)
+np=(sn+ns)
+print('Seu novo salario que era de RS{} e aumentou em %{} sera de R${}'.format(sn,am,np))

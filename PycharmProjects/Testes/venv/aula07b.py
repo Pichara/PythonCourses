@@ -1,0 +1,5 @@
+nome=input('qual é o seu nome?')
+peso=input('qual o seu peso?')
+idade=input('qual a sua idade?')
+print('o seu nome é {}\n e voçe pesa {}'.format(nome,peso),end=',')
+print('mas sua idade é {}'.format(idade))

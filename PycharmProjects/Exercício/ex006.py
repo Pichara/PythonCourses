@@ -1,0 +1,6 @@
+n=int(input('digite un numero:'))
+d=(n*2)
+t=(n*3)
+r=(n**(1/2))
+print('o dobro do numero {} é {} \n e o triplo é {}'.format(n,d,t))
+print('\n sua rais quadrada é {:.3f}'.format(r))

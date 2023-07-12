@@ -1,0 +1,10 @@
+nome=input('Diga o nome completo de uma pessoa:')
+print(nome.upper())
+print(nome.lower())
+snome=(nome.split())
+s1=(len(snome[0]))
+s2=(len(snome[1]))
+s3=(len(snome[2]))
+nc=s1+s2+s3
+print(f'Ao todo no seu nome há {nc} letras')
+print(f'Seu primeiro nome tem {s1} letras')
